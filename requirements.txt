@@ -1,5 +1,5 @@
 streamlit
-feedparser
+pandas
+textblob
 google-generativeai
-python-dotenv
-requests
+python -m textblob.download_corpora
