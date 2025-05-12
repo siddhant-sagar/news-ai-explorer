@@ -48,7 +48,7 @@ def fetch_top_news(topic, limit=5):
 
 # UI
 st.set_page_config(page_title="AI News Explorer 📰", layout="centered")
-st.title("📰 AI News Explorer")
+st.title("AI News Explorer 📰")
 st.write("Explore the latest news on any topic, summarized and analyzed using Generative AI.")
 
 topic = st.text_input("Enter a topic to explore:", value="AI")
