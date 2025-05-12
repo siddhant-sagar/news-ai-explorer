@@ -4,6 +4,9 @@ import datetime
 from textblob import TextBlob
 import google.generativeai as genai
 import os
+import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 # ---- Gemini API Setup ----
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
