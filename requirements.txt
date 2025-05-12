@@ -2,4 +2,3 @@ streamlit
 pandas
 textblob
 google-generativeai
-python -m textblob.download_corpora
